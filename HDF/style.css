@@ -357,14 +357,14 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 
 #content {
 	overflow: hidden;
-	margin: 150px auto 50px !important;
-	width: 1000px;
+	margin: 200px auto 50px !important;
+	width: 1210px;
 	line-height: 1.4em;
 }
 
 #content .main_column {
 	float: left;
-	width: 730px;
+	width: 950px;
 }
 
 #content, .thin {
@@ -463,7 +463,7 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 	top: 0;
 	margin: 125px 0 0;
 	width: 100%;
-	height: 50px;
+	height: 62px;
 	background-color: #2e2e2e;
 	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
@@ -490,7 +490,7 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 #header {
 	position: relative;
 	z-index: 5;
-	margin: 0 auto;
+	margin: -30px auto;
 	width: auto;
 	max-width: 1300px;
 	height: 65px;
@@ -510,7 +510,6 @@ background-color: rgba(80, 80, 80, 0.3);
 .vote_form table{align-content: center; margin-left: auto; margin-right: auto;}
 #recwars #content, #format-hide, .torrent_table, #content > .search_form,.thin>.search_form[name="requests"],.thin>.search_form[name="forums"],  .thin > div > .search_form, .box.pad .edit_form, .box.pad .rename_form, .box.pad .merge_form, .vote_matches_table, .main_column > .box, .sidebar .box, .collage_table, .create_form .layout, .request_table .border, .request_table.border, #request_form .layout, #searchforum, .forum_index, .forum_post, .forum_list.border, #reply_box, #chat .box.pad[style="padding: 10px 10px 10px 20px;"], #top10 h3 + .border, .rule_summary, .rule_table, .box.pad > .border, .thin > .before_rules, #actual_rules, #wiki .create_form, #wiki .edit_form, #wiki .thin > form > table, #below_box, .staff, #logchecker .thin > form > table, #better .box.pad[style="padding: 10px 10px 10px 20px;"] > p, #better .box.pad > table[width="100%"], .message_table, #inbox .send_form, .edit_form .layout, .friends_table, #dnulist, #upload .thin > p, #upload .box.pad > h3 + p + p, #user .box.pad > table[width="100%"], #donate .box.pad, #user .thin > .header + .box.pad, #user .send_form .layout.border, #discog_table .box.center, #user .main_column .layout.recent, #user .manage_form .layout, .artist_table, #manage_collage_table.ui-sortable, .thin > .header + .layout, #wiki .thin > .header + table, .main_column > .layout, .box.vertical_space, .manage_form .box.pad, .split_form .layout, .box.pad .add_form, .thin > .header + .border, #searchthread .search_form .layout.border, #content > .header + .linkbox + .layout.border, .thin > .box.thin.clear, #compose .send_form, #torrents .thin.center > .box[style="width: 600px; margin: 0px auto;"], #blog .box, #wiki .thin > div > form > .layout.border, #forums #searchthread.center .search_form .layout.border, #wiki .thin > .linkbox + table[width="100%"], #reports .thin > h3 + .box.pad, #reports .thin > .box.pad + p + table, #torrents .thin > .header + table, #staffpm #inbox > .box.pad, #torrents .torrentdetails.pad table, #user #content > .thin.center > .box, #log #log_table.log_table.border, #mark_suggestion_div .layout.border, #tools #content table, #recommendation_div {
 	margin-bottom: 15px;
-	padding: 10px !important;
 	background-color: rgba(100, 100, 100, 0.15);
 	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
@@ -695,7 +694,7 @@ background-color: rgba(80, 80, 80, 0.3);
 
 #menu {
 	position: absolute;
-	top: 0;
+	top: -20px;
 	right: 0;
 	width: 100%;
 	height: 45px;
@@ -851,7 +850,7 @@ background-color: rgba(80, 80, 80, 0.3);
 
 #searchbars {
 	position: absolute;
-	top: 125px;
+	top: 115px;
 	margin: 0;
 	padding: 12px 5px;
 	width: 100%;
@@ -1121,7 +1120,7 @@ background-color: rgba(80, 80, 80, 0.3);
 
 #userinfo_minor {
 	right: 0;
-	margin: 62px 50px 0 0;
+	margin: 90px 50px 0 0;
 }
 
 #userinfo_minor li, #userinfo_major li {
@@ -1885,14 +1884,13 @@ li.graph .center_poll {
 }
 
 .head, .colhead td, .colhead th, .recent .colhead td, .colhead_dark td, tr.colhead{
-	margin: -10px;
 	margin-bottom: 10px;
 	padding: 8px 10px !important;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1d1d), to(#191919));
-	background-image: -webkit-linear-gradient(top, #1d1d1d, #191919);
-	background-image: -moz-linear-gradient(top, #1d1d1d, #191919);
-	background-image: -o-linear-gradient(top, #1d1d1d, #191919);
-	background-image: linear-gradient(to bottom, #1d1d1d, #191919);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#201f1f), to(#000)) !important;
+	background-image: -webkit-linear-gradient(top, #201f1f, #000) !important;
+	background-image: -moz-linear-gradient(top, #201f1f, #000) !important;
+	background-image: -o-linear-gradient(top, #201f1f, #000) !important;
+	background-image: linear-gradient(to bottom, #201f1f, #000) !important;
 	text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.5);
 	font-weight: bold;
 }
@@ -2508,7 +2506,7 @@ tr.group_torrent td.edition_info {
 }
 
 .head2{
-	width: 720px;
+	width: 930px;
 }
 
 .user_online>table>tbody{
